@@ -1,0 +1,24 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modelViewer {
+  width: 100%;
+  height: 400px;
+  background-color: #d9d9d9;
+}
+
+.babylonContainer {
+  width: 100%;
+  height: 400px;
+}
