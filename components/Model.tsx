@@ -12,6 +12,9 @@ declare global {
       class: string;
       "camera-orbit": string;
       "rotation-per-second": string;
+      ar: boolean;
+      "camera-controls": boolean;
+      "auto-rotate": boolean;
     }
   }
 }
@@ -25,6 +28,7 @@ const Model = () => {
       camera-controls
       auto-rotate
       rotation-per-second="30deg"
+      ar
     ></model-viewer>
   );
 };
